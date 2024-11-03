@@ -36,9 +36,6 @@ const App: React.FC = () => {
       maxWidth: "1200px",
       margin: "0 auto",
     },
-    heading: {
-      marginBottom: "20px",
-    },
   };
 
   return (
@@ -50,7 +47,7 @@ const App: React.FC = () => {
         <HamburgerMenu theme={theme} />
       </header>
       <main style={styles.main}>
-        <p>Click the menu icon in the top right to navigate!</p>
+        <p>Click to change the theme of the page!</p>
       </main>
     </div>
   );
